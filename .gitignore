@@ -1,0 +1,29 @@
+# Pastas de saída e compilação geradas pelo Quartus
+/output_files/
+/db/
+/incremental_db/
+/simulation/
+/greybox_tmp/
+/stamp/
+/incremental_db/
+
+# Arquivos temporários e logs
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.sld
+*.bak
+*.asi
+transcript
+work/
+vsim_stacktrace.vrs
+
+# Arquivos de suporte de dispositivo gigantes e instaladores (.exe, .qdz)
+*.qdz
+*.exe
+*.zip
+*.rar
+LR-189953_License.dat
