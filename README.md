@@ -39,5 +39,5 @@ As operações são selecionadas através do vetor **S (`S₂ S₁ S₀`)**:
   - Somador/Subtrator completo
   - Multiplexadores customizados (como `mux2to1`, `mux4to1`)
   - Blocos lógicos e aritméticos dedicados (como comparação de mínimo/máximo `min_a,b`)
-  - Decodificador de 7 segmentos para a exibição das saídas[cite: 6].
+  - Decodificador de 7 segmentos para a exibição das saídas.
 - **Arquitetura:** Todos os blocos intermediários foram projetados de forma modular utilizando estritamente portas lógicas fundamentais.
