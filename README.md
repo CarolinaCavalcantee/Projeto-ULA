@@ -35,9 +35,10 @@ As operações são selecionadas através do vetor **S (`S₂ S₁ S₀`)**:
 
 ## Estrutura e Organização dos Blocos
 - **Ferramenta:** Intel Quartus Prime (utilizado para captura esquemática com arquivos `.bdf` e `.bsf`)
-- **Módulos Principais:** 
-  - Somador/Subtrator completo
-  - Multiplexadores customizados (como `mux2to1`, `mux4to1`)
-  - Blocos lógicos e aritméticos dedicados (como comparação de mínimo/máximo `min_a,b`)
-  - Decodificador de 7 segmentos para a exibição das saídas.
-- **Arquitetura:** Todos os blocos intermediários foram projetados de forma modular utilizando estritamente portas lógicas fundamentais.
+- **Módulos Principais (`.bdf` / `.bsf`):** 
+  - `ula` (Esquemático principal e símbolo integrado)
+  - `mux4to1` (Multiplexador de 4 entradas para seleção de caminhos lógicos)
+  - Somador/Subtrator completo de múltiplos bits
+  - Blocos lógicos e aritméticos dedicados (como comparação de mínimo/máximo, verificação de paridade e tratamento de sinal)
+  - Decodificador de 7 segmentos para a exibição das saídas numéricas.
+- **Arquitetura:** Todos os blocos intermediários foram projetados de forma modular utilizando estritamente portas lógicas fundamentais encadeadas via captura esquemática.
