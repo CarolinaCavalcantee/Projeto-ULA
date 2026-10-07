@@ -185,7 +185,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 568 56 632 104)
 	(text "AND3" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst" (rect 3 37 20 49)(font "Arial" ))
+	(text "inst6" (rect 3 37 20 49)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
