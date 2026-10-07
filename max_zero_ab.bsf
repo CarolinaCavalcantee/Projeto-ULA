@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 160 112)
-	(text "subtrator_completo" (rect 5 0 121 19)(font "Intel Clear" (font_size 8)))
+	(text "max_zero_ab" (rect 5 0 84 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
@@ -41,23 +41,23 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 144 32)
 		(output)
-		(text "Neg" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
-		(text "Neg" (rect 100 27 123 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 144 32)(pt 128 32))
+		(text "F[4..0]" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "F[4..0]" (rect 86 27 123 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
 	)
 	(port
 		(pt 144 48)
 		(output)
-		(text "Overflow" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
-		(text "Overflow" (rect 70 43 123 62)(font "Intel Clear" (font_size 8)))
+		(text "Neg" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "Neg" (rect 100 43 123 62)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 48)(pt 128 48))
 	)
 	(port
 		(pt 144 64)
 		(output)
-		(text "S[4..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
-		(text "S[4..0]" (rect 85 59 123 78)(font "Intel Clear" (font_size 8)))
-		(line (pt 144 64)(pt 128 64)(line_width 3))
+		(text "Overflow" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
+		(text "Overflow" (rect 70 59 123 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 64)(pt 128 64))
 	)
 	(drawing
 		(rectangle (rect 16 16 128 80))
