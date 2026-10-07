@@ -336,21 +336,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 336 96)
 )
 (connector
-	(text "B[1]" (rect 192 200 212 217)(font "Intel Clear" ))
-	(pt 198 200)
-	(pt 222 200)
-)
-(connector
-	(text "C1" (rect 184 216 196 233)(font "Intel Clear" ))
-	(pt 222 216)
-	(pt 206 216)
-)
-(connector
-	(text "A[1]" (rect 198 168 218 185)(font "Intel Clear" ))
-	(pt 222 184)
-	(pt 198 184)
-)
-(connector
 	(text "C2" (rect 334 184 346 201)(font "Intel Clear" ))
 	(pt 320 200)
 	(pt 342 200)
@@ -411,11 +396,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 216 560)
 )
 (connector
-	(text "Cout_final" (rect 328 544 377 561)(font "Intel Clear" ))
-	(pt 328 544)
-	(pt 336 544)
-)
-(connector
 	(text "Sum[0]" (rect 328 64 362 81)(font "Intel Clear" ))
 	(pt 328 80)
 	(pt 336 80)
@@ -464,4 +444,24 @@ https://fpgasoftware.intel.com/eula.
 	(pt 144 160)
 	(pt 160 160)
 	(bus)
+)
+(connector
+	(text "A[1]" (rect 194 168 214 185)(font "Intel Clear" ))
+	(pt 224 184)
+	(pt 184 184)
+)
+(connector
+	(text "B[1]" (rect 194 184 214 201)(font "Intel Clear" ))
+	(pt 224 200)
+	(pt 184 200)
+)
+(connector
+	(text "C[1]" (rect 194 200 214 217)(font "Intel Clear" ))
+	(pt 184 216)
+	(pt 224 216)
+)
+(connector
+	(text "Cout" (rect 328 544 350 561)(font "Intel Clear" ))
+	(pt 328 544)
+	(pt 336 544)
 )
