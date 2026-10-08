@@ -634,8 +634,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 104 72)
 		(output)
-		(text "OUT1" (rect 61 68 88 79)(font "Courier New" (bold)))
-		(text "OUT1" (rect 61 68 88 79)(font "Courier New" (bold)))
+		(text "OUT" (rect 61 68 88 79)(font "Courier New" (bold)))
+		(text "OUT" (rect 61 68 88 79)(font "Courier New" (bold)))
 		(line (pt 88 72)(pt 104 72))
 	)
 	(drawing
@@ -1124,7 +1124,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[0]" (rect 1010 -232 1045 -220)(font "Intel Clear" ))
 	(pt 976 -216)
 	(pt 1064 -216)
-	(bus)
 )
 (connector
 	(pt 736 -216)
@@ -1139,6 +1138,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 224 424)
 )
 (connector
+	(text "nU2" (rect 204 409 229 424)(font "Intel Clear" ))
 	(pt 208 424)
 	(pt 224 424)
 )
@@ -1151,6 +1151,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 256 136)
 )
 (connector
+	(text "nU0" (rect 236 121 261 136)(font "Intel Clear" ))
 	(pt 240 136)
 	(pt 256 136)
 )
@@ -1191,26 +1192,18 @@ https://fpgasoftware.intel.com/eula.
 	(pt 176 80)
 )
 (connector
+	(text "U[1]" (rect 200 -63 232 -48)(font "Intel Clear" ))
 	(pt 448 -48)
 	(pt 176 -48)
 )
 (connector
-	(pt 176 -48)
-	(pt 176 80)
-)
-(connector
 	(pt 176 80)
 	(pt 176 136)
-)
-(connector
-	(pt 176 136)
-	(pt 176 224)
 )
 (connector
 	(text "Disp[1]" (rect 1008 -128 1043 -116)(font "Intel Clear" ))
 	(pt 976 -112)
 	(pt 1064 -112)
-	(bus)
 )
 (connector
 	(pt 736 -112)
@@ -1264,7 +1257,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[2]" (rect 1002 48 1037 60)(font "Intel Clear" ))
 	(pt 968 64)
 	(pt 1072 64)
-	(bus)
 )
 (connector
 	(pt 736 64)
@@ -1462,7 +1454,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[3]" (rect 1002 232 1037 244)(font "Intel Clear" ))
 	(pt 968 248)
 	(pt 1064 248)
-	(bus)
 )
 (connector
 	(pt 744 248)
@@ -1472,7 +1463,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[4]" (rect 962 568 997 580)(font "Intel Clear" ))
 	(pt 1072 584)
 	(pt 976 584)
-	(bus)
 )
 (connector
 	(pt 504 528)
@@ -1666,7 +1656,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[5]" (rect 1034 776 1069 788)(font "Intel Clear" ))
 	(pt 976 792)
 	(pt 1104 792)
-	(bus)
 )
 (connector
 	(pt 640 792)
@@ -1796,7 +1785,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "Disp[6]" (rect 1114 1024 1149 1036)(font "Intel Clear" ))
 	(pt 976 1040)
 	(pt 1192 1040)
-	(bus)
 )
 (connector
 	(pt 656 1040)
@@ -1807,6 +1795,16 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1184 184)
 	(pt 1144 184)
 	(bus)
+)
+(connector
+	(text "nU0" (rect 378 -247 403 -232)(font "Intel Clear" ))
+	(pt 432 -232)
+	(pt 400 -232)
+)
+(connector
+	(text "nU2" (rect 378 -231 403 -216)(font "Intel Clear" ))
+	(pt 432 -216)
+	(pt 400 -216)
 )
 (junction (pt 176 80))
 (junction (pt 128 224))
